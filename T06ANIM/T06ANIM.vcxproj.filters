@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Math Support">
+      <UniqueIdentifier>{2cdb4775-94b9-4683-bf0c-96ea04806ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows Depended">
+      <UniqueIdentifier>{558a65cd-596d-4dcb-a60c-f611a7bbdcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System">
+      <UniqueIdentifier>{1d7b168f-a77b-4478-bc22-044cd484a773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Input System">
+      <UniqueIdentifier>{41927022-9637-44b2-9284-abe7ea6cca37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Rendering System">
+      <UniqueIdentifier>{84abdb71-5fc7-4b4d-a2f5-1d48d8211caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Rendering System\Resources">
+      <UniqueIdentifier>{71b7ea5e-3b34-4f04-a508-5846cca32c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit Samples">
+      <UniqueIdentifier>{1d91e223-e94a-4f5f-9cd4-9aba9f1a69e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Rendering System\glew">
+      <UniqueIdentifier>{0d897432-0a36-4312-9e7c-9a6b448c0e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Rendering System\Resources\Shaders">
+      <UniqueIdentifier>{3d31d3cc-2c3c-4b38-8868-7fa90d085bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Rendering System\Resources\Primitives">
+      <UniqueIdentifier>{086409b4-f456-473a-bde5-3f356009a2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Rendering System\Resources\Materials">
+      <UniqueIdentifier>{8f2ba966-d44c-4bba-a6f2-ad54f087dc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Rendering System\Resources\Textures">
+      <UniqueIdentifier>{d09c78b7-dab5-49b7-85ea-86c9ecf0b26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation System\Rendering System\Resources\Buffers">
+      <UniqueIdentifier>{44167b44-9422-4c9a-8a77-5ccb798dab4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\bin">
+      <UniqueIdentifier>{b44143e5-7650-48a4-bf8d-65559dcd1484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\bin\shaders">
+      <UniqueIdentifier>{ed1fc2c1-d963-4e55-8a61-dc4a207f820a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\bin\shaders\g3dm">
+      <UniqueIdentifier>{cfda83ac-c078-4601-839b-c22b62d817d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gogl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\win.cpp">
+      <Filter>Source Files\Windows Depended</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\win_msg.cpp">
+      <Filter>Source Files\Windows Depended</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\anim.cpp">
+      <Filter>Source Files\Animation System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\rnd\render.cpp">
+      <Filter>Source Files\Animation System\Rendering System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\rnd\glew\glew.c">
+      <Filter>Source Files\Animation System\Rendering System\glew</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\unit_control.cpp">
+      <Filter>Source Files\Unit Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\unit_triangle.cpp">
+      <Filter>Source Files\Unit Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\rnd\res\shd\shaders.cpp">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\rnd\res\prim\model.cpp">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\rnd\res\prim\prim.cpp">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\unit_sky.cpp">
+      <Filter>Source Files\Unit Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\unit_grid.cpp">
+      <Filter>Source Files\Unit Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anim\rnd\res\mtl\mtl.cpp">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Materials</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\gogl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_cam.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_def.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_matr.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec2.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec3.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec4.h">
+      <Filter>Source Files\Math Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\win.h">
+      <Filter>Source Files\Windows Depended</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input\mouse.h">
+      <Filter>Source Files\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input\input.h">
+      <Filter>Source Files\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input\keyboard.h">
+      <Filter>Source Files\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\anim.h">
+      <Filter>Source Files\Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\input\timer.h">
+      <Filter>Source Files\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\render.h">
+      <Filter>Source Files\Animation System\Rendering System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\resource.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\shd\shaders.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\prim\model.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\prim\prim.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\prim\topology.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\mtl\mtl.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\tex\texture.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\tex\image.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\buf\buffers.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\res\res.h">
+      <Filter>Source Files\Animation System\Rendering System\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim\rnd\grid.h">
+      <Filter>Source Files\Animation System\Rendering System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\shaders\g3dm\frag.glsl">
+      <Filter>Resource Files\bin\shaders\g3dm</Filter>
+    </None>
+    <None Include="bin\shaders\g3dm\vert.glsl">
+      <Filter>Resource Files\bin\shaders\g3dm</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\mth">
+      <UniqueIdentifier>{afba386f-e174-472d-8606-ee85022991e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window Depanded">
+      <UniqueIdentifier>{0c125e11-e486-4d27-8e72-5cc80bdd2f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray tracing">
+      <UniqueIdentifier>{66c61a50-d7a2-48ff-98c5-bd036ddb8891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray tracing\Shapes">
+      <UniqueIdentifier>{59cb4221-2427-473c-b029-29094f963db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray tracing\lights">
+      <UniqueIdentifier>{c50ebf68-3595-40ce-a3bc-3d94911b9579}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mth\mth.h">
+      <Filter>Source Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_def.h">
+      <Filter>Source Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec3.h">
+      <Filter>Source Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gort.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_matr.h">
+      <Filter>Source Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec4.h">
+      <Filter>Source Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec2.h">
+      <Filter>Source Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\win.h">
+      <Filter>Source Files\Window Depanded</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_ray.h">
+      <Filter>Source Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_cam.h">
+      <Filter>Source Files\mth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\rt_win.h">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\frame.h">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\rt.h">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\rt_def.h">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\shp\sphere.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\shp\plane.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\rt_scene.h">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\shp\quadrics.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\shp\shapes.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\shp\box.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\shp\triangle.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\shp\csg.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\timer.h">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\lgh\lights.h">
+      <Filter>Source Files\Ray tracing\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\lgh\dir.h">
+      <Filter>Source Files\Ray tracing\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\lgh\point.h">
+      <Filter>Source Files\Ray tracing\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray\shp\g3dm.h">
+      <Filter>Source Files\Ray tracing\Shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\win\main.cpp">
+      <Filter>Source Files\Window Depanded</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win.cpp">
+      <Filter>Source Files\Window Depanded</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\win_msg.cpp">
+      <Filter>Source Files\Window Depanded</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ray\rt_scene.cpp">
+      <Filter>Source Files\Ray tracing</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
