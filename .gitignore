@@ -30,3 +30,37 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio files
+*.sln
+*.vcxproj*
+*.vs*
+*.pch 
+
+.vs/
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.opensdf
+*.sdf
+*.tlog
+*.log
+*.tmp
+*.pdb
+*.obj
+*.o
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+/out
+x86/
+ARM/
+ARM64/
+build/
+bin/
+obj/
+[Tt]emp/
+[Dd]ist/
