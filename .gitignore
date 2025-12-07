@@ -32,8 +32,8 @@
 *.app
 
 # Visual Studio files
-*.sln
-*.vcxproj*
+# *.sln
+# *.vcxproj*
 *.vs*
 *.pch 
 
