@@ -69,5 +69,5 @@
 
 ## Галерея
 
-![sample](bin/images/sample.jpg)
+![sample](images/sample.jpg)
 
